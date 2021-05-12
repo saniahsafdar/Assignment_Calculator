@@ -22,9 +22,14 @@ routes.post("/add", (req,res) =>{
    pushAssignment(assignment);
    res.render('assignment-result', {assignment})
 
+
 });
 
 
+routes.delete("/deleted", (req, res) =>{
+    
+
+})
 
 
 export default routes;
