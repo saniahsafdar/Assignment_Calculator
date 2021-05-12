@@ -27,7 +27,7 @@ routes.post("/add", (req,res) =>{
 
 
 routes.delete("/deleted", (req, res) =>{
-    
+    res.render("assignment-delete");
 
 })
 
